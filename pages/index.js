@@ -106,8 +106,8 @@ export default function Home() {
                 {/* Copy Button */}
                 <button
                   className={`${copiedIndex === index
-                      ? 'bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-emerald-500/40'
-                      : 'bg-gradient-to-r from-cyan-400 to-sky-500 shadow-cyan-500/30 hover:-translate-y-0.5 hover:shadow-cyan-500/40'
+                    ? 'bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-emerald-500/40'
+                    : 'bg-gradient-to-r from-cyan-400 to-sky-500 shadow-cyan-500/30 hover:-translate-y-0.5 hover:shadow-cyan-500/40'
                     } text-white border-none py-3.5 px-7 rounded-full text-sm font-bold cursor-pointer w-full mt-4 transition-all duration-300 shadow-lg relative overflow-hidden group`}
                   onClick={() => copyThread(generatedThread, index)}
                 >
